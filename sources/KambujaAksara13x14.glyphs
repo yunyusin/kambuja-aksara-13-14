@@ -3530,6 +3530,7 @@ lookup repos_cons_vann_3 {
 
 
 	pos [@vannayutti uni17C6] [@vannayutti uni17C6]' <0 200 0 0>;
+	pos @vannayutti [k.17BB k.17BC uni17BB uni17BC uni17BD] [uni17C6]' <0 200 0 0>;
 } repos_cons_vann_3;
 
 lookup repos_cons_vann_4 {
@@ -3545,7 +3546,7 @@ lookup repos_cons_vann_4 {
 	pos [uni17C9 uni17CB] [uni17B7 uni17B8 uni17BE uni17B9 uni17BA]' <0 200 0 0>;
 	pos [uni17CA uni17D1] [uni17B7 uni17B8 uni17BE]' <-50 200 0 0>;
 	pos [uni17CA uni17D1] [uni17B9 uni17BA]' <0 200 0 0>;
-	pos [uni17CA uni17D1] [uni17BB uni17BC uni17BC] [uni17C6]' <0 150 0 0>;
+	pos [uni17C6 uni17C9 uni17CB uni17CC uni17CD uni17CE uni17CF uni17D0] [k.17BB k.17BC uni17BB uni17BC uni17BD] [uni17C6]' <200 0 0 0>;
 	pos [uni17C6 uni17C9 uni17CB uni17CC uni17CD uni17CE uni17CF uni17D0] [uni17C6 uni17C9 uni17CB uni17CC uni17CD uni17CE uni17CF uni17D0]' <200 0 0 0>;
 	pos [uni17CC uni17CC.alt uni17CD uni17CE uni17CF uni17D0]' [uni17B7 uni17B8 uni17B9 uni17BA uni17BE uni17BF uni17BF.l1 uni17BF.l2 uni17BF.l3 uni17BF.a uni17BF.a.l1 uni17BF.a.l2 uni17BF.a.l3] <350 0 0 0>;
 
@@ -4665,8 +4666,8 @@ sub @cons_iii' [uni17BB uni17BC uni17BD] by @cons_iii.alt;
 sub uni25CC' uni17C9' uni17C1 uni25CC uni17BE uni17BB by k.empty;
 sub uni25CC' uni17C9' [uni17C1 uni17C2 uni17C3] uni25CC uni17C9 by k.empty;
 sub uni25CC' uni17CA' [uni17C1 uni17C2 uni17C3] uni25CC uni17CA by k.empty;
-sub uni17C1' uni25CC [uni17C9 uni17CA] [uni17BF uni17C0] by k.empty;
-sub uni17C1' uni25CC [uni17BF uni17C0] by k.empty;
+sub uni17C1' uni25CC @vannayutti [uni17C0] by k.empty;
+sub uni17C1' uni25CC [uni17C0] by k.empty;
 
 
 # consonants
@@ -21074,6 +21075,7 @@ unicode = 6074;
 },
 {
 glyphname = uni17BB;
+lastChange = "2026-10-23 08:43:02 +0000";
 layers = (
 {
 layerId = m01;
@@ -23586,6 +23588,7 @@ unicode = 6085;
 },
 {
 glyphname = uni17C6;
+lastChange = "2026-10-23 09:21:49 +0000";
 layers = (
 {
 layerId = m01;
